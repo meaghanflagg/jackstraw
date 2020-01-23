@@ -30,7 +30,7 @@ Example
 .. code:: python
 
     import numpy as np
-    from jackstraw.jackstraw import Jackstraw
+    from jackstraw import jackstraw
 
     X = np.random.normal(size=(100, 20))
     jack = Jackstraw(S = 10, B = 100)
